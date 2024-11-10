@@ -1,0 +1,158 @@
+<!doctype html> 
+<html> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Restaurant Website</title> 
+    <style> 
+        body { 
+            margin: 0; 
+			padding:0;
+			background-color:#d84404;
+			font-family:Lexend;
+			color: #513628;
+			
+        } 
+        wrapper { 
+			margin: 0 auto;
+			padding: 5%;
+            width: 850px; 
+            height: auto;
+            padding:0px; 
+			background-color: white;
+			display:block;
+        } 
+        header { 
+            background-image: url("bannerimage3dark.png"); 
+            background-size: cover; 
+            background-position: center;
+            height: 500px; 
+            position: relative;
+        } 
+        header img { 
+            width: 450px;
+            position: absolute;
+            top: 140px;
+            left: 50%; 
+            transform: translateX(-50%);
+        } 
+		
+		.abt{
+			margin:0px;
+			padding:10px;
+			color:white;
+			float: right;
+			display:inline-block;
+		}
+		
+		.quote {
+			padding: 20px 6%;
+			padding-bottom: 0px;
+			margin: 0px;
+			width: 700px;
+			text-align: center;
+			font-family: "Lato";
+			font-weight: 400;
+  			font-style: italic;
+			line-height: 2;
+			font-size: 20px;
+		}
+		
+		div{
+			padding: 30px;
+		}
+		
+		section{
+			margin: auto;
+			width:auto;
+		}
+		
+		.mainimg{
+			height: 360px;
+			display: block;
+			margin: 20px;
+			margin-bottom: 10px;
+			transition: box-shadow 0.3s ease;
+			border-radius: 8px;
+		}
+		.mainimg:hover {
+   			box-shadow: 0 0 0 4px #d84404;
+   
+		}
+		.main{
+			font-size:50px;
+			font-family:Lexend;
+			border:0px;
+			background-color:transparent;
+			padding: 20px 290px 20px;
+			padding-bottom: 20px;
+			display: flex;
+			text-align: center;
+			display: block;
+			padding:20px 230px;
+			color:#513628;
+			transition: 0.3s ease;
+		}
+			
+		.main:hover{
+			color:#d84404;
+		}
+		
+		.abt{
+			font-family:lexend;
+			background-color:transparent;
+			border:0px;
+			font-size: 20px;
+		}
+		.abt:hover{
+			text-decoration: underline;
+		}
+		
+		span{
+			color:#d84404;
+		}
+		footer{
+			padding:60px;
+			padding:20px;
+			font-size: 12px;
+		}
+		
+	
+	
+		
+	 </style>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Parisienne&display=swap" rel="stylesheet">
+	
+</head> 
+	<body> 
+    <wrapper> 
+        <header> 
+            <img src="logowhite.png" alt="Logo"/> 
+			<button class="abt abt">About us</button>
+			<button class="abt abt">Private events</button>
+			<button class="abt">Contact</button>
+        </header> 
+		
+		<main>	
+			<div>	
+				<p class="quote"><q>Rusty Pelican offers an <span>exceptional dining experience</span>, seamlessly blending refined  dishes with breathtaking waterfront views. An absolute gem in Key Biscayne, where elegance and culinary artistry converge.</q></p>
+				<p class="quote">—Aldous Huxley, <cite>OpenTable.</cite></p>
+			</div>
+			
+			<section>
+				<button class="main main">View menu<img class="mainimg" src="shrimp.jpeg"></button>
+				
+				<button class="main main">Order online<img class="mainimg" src="lemonfish.jpeg"></button>
+				
+				<button class="main main">Make a reservation<img class="mainimg" src="sandwitch.webp"></button>
+			</section> 
+		</main>
+		
+		<footer> 
+			<p>&copy; 2024, Yuliana Lopez. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+		</footer>
+	</wrapper>
+	</body> 
+</html>
